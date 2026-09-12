@@ -1,7 +1,4 @@
-"""
-Pydantic schemas — these define the exact shape of data going in/out of the API.
-FastAPI uses these to validate requests and auto-generate API docs at /docs.
-"""
+
 from pydantic import BaseModel
 from typing import Optional, Literal
 from datetime import datetime
