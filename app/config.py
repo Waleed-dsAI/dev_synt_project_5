@@ -1,7 +1,4 @@
-"""
-All configuration lives here, loaded from environment variables (.env file).
-Nothing secret is ever hardcoded — this is what the task's "Code & Security" section asks for.
-"""
+
 from pydantic_settings import BaseSettings
 
 
