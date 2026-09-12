@@ -1,13 +1,4 @@
-"""
-STEP 2 of the pipeline: split extracted page text into overlapping chunks.
 
-Why overlap? If a sentence's meaning is split exactly at a chunk boundary, overlap
-means it still appears whole in at least one chunk — this materially improves retrieval.
-
-This is a simple character-based splitter that tries to break on paragraph/sentence
-boundaries where possible. It's not fancy, but it's reliable and easy to explain in
-your README (which matters for evaluation).
-"""
 from app.config import settings
 
 
