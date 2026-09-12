@@ -1,0 +1,12 @@
+.env
+.env.local
+.venv/
+node_modules/
+.next/
+.vercel
+__pycache__/
+*.pyc
+storage/uploads/*
+storage/chroma/*
+!storage/uploads/.gitkeep
+!storage/chroma/.gitkeep

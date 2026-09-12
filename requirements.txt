@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+pymupdf
+python-docx
+chromadb
+sentence-transformers
+google-genai
+python-dotenv
