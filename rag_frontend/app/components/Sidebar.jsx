@@ -33,7 +33,7 @@ export default function Sidebar() {
             letterSpacing: '0.01em',
           }}
         >
-          DocsChat
+          Estate Archive
         </div>
         <div style={{ fontSize: 12.5, color: '#a8b0a6', marginTop: 2 }}>
           Document intelligence
@@ -66,7 +66,7 @@ export default function Sidebar() {
       <div style={{ marginTop: 'auto', fontSize: 12, color: '#6f7870', lineHeight: 1.6 }}>
         RAG chatbot dashboard
         <br />
-        
+        AI Internship — Task 5
       </div>
     </aside>
   );
