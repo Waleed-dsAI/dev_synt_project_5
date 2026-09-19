@@ -2,8 +2,8 @@ import './globals.css';
 import Sidebar from './components/Sidebar';
 
 export const metadata = {
-  title: 'DocsChat',
-  description: 'AI-powered document Q&A .',
+  title: 'Estate Archive — Document RAG Dashboard',
+  description: 'AI-powered document Q&A for real estate document sets.',
 };
 
 export default function RootLayout({ children }) {
